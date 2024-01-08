@@ -4,7 +4,7 @@ let counter = document.getElementById("counter");
 
     incrementBtn.addEventListener("click", function () {
       // Display the un-incremented value in an alert
-      alert(count);
+      alert(" un-incremented value "+ count);
 
       // Increment the counter value and update the display
       counter.innerText = count+1;
