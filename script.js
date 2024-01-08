@@ -1,6 +1,6 @@
 let counter = document.getElementById("counter");
     let incrementBtn = document.getElementById("incrementBtn");
-    let count = 0;
+    let count = parseInt(counter.innerText);
 
     incrementBtn.addEventListener("click", function () {
       // Display the un-incremented value in an alert
