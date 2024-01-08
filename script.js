@@ -7,5 +7,5 @@ let counter = document.getElementById("counter");
       alert(" un-incremented value "+ count);
 
       // Increment the counter value and update the display
-      counter.innerText = count+1;
+      counter.innerText = ++count;
     });
