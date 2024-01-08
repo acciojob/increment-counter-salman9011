@@ -1,11 +1,11 @@
-//your JS code here. If required.
-let counter=document.getElementById("counter");
-let btn=document.getElementById("incremmentBtn");
-let count=0;
-function increment(){
-	
-	
-	alert(count);
-	counter.innerText= count++;
-	
-}
+let counter = document.getElementById("counter");
+    let incrementBtn = document.getElementById("incrementBtn");
+    let count = 0;
+
+    incrementBtn.addEventListener("click", function () {
+      // Display the un-incremented value in an alert
+      alert("Un-incremented value: " + count);
+
+      // Increment the counter value and update the display
+      counter.innerText = ++count;
+    });
